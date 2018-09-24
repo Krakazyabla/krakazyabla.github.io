@@ -1,0 +1,16 @@
+.education-container {
+  @include flex-grid-row(null, $global-width, 12);
+  justify-content: center;
+}
+
+.media-object {
+  padding: 50px 10%;
+}
+
+.media-object-section h4 {
+  margin-top: 40px;
+}
+
+.education-img img {
+  width: 100%;
+}
