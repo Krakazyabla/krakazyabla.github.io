@@ -1,5 +1,5 @@
-$footer-bg: #544B3A;
-$footer-text-color: lighten($footer-bg, 50%);
+$footer-bg: $brown;
+$footer-text-color: $light-brown;
 
 footer {
   background: $footer-bg;

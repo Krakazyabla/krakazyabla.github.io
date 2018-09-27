@@ -1,7 +1,7 @@
-$timeline-color: $white;
 $timeline-bg-color: rgba(0, 0, 0, 0.5);
+$timeline-color: $light-brown;
 $timeline-transition: all 0.25s ease-in;
-$timeline-item-card-bg: $white;
+$timeline-item-card-bg: $timeline-color;
 $timeline-item-font-color: $white;
 $timeline-item-card: false;
 $timeline-item-card-radius: $global-radius;
@@ -16,16 +16,10 @@ $timeline-item-card-radius: $global-radius;
   }
 }
 
-// Timeline
 .timeline-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  padding: 0 20px;
-  width: 50%;
-  overflow-y: auto;
+  height: 100vh;
   background-color: $timeline-bg-color;
+  overflow-y: auto;
 }
 
 .skills-header {
@@ -34,7 +28,7 @@ $timeline-item-card-radius: $global-radius;
   text-align: center;
   width: 70%;
   line-height: 1;
-  color: $timeline-color;
+  color: $timeline-item-font-color;
 }
 
 .timeline {
@@ -125,53 +119,9 @@ $timeline-item-card-radius: $global-radius;
         margin-bottom: 0;
       }
 
-      .timeline-content-date {
-        font-size: 16px;
-        font-weight: bold;
-        margin-bottom: 0;
-      }
-
-      .timeline-content-month {
-        font-size: rem-calc(14);
-        text-transform: uppercase;
-        font-weight: 400;
-      }
-
       &.right {
         float: right;
         text-align: left;
-      }
-    }
-  }
-}
-
-@include breakpoint(small only) {
-  .timeline {
-    margin: 30px;
-    padding: 0;
-    width: 90%;
-
-    &::before {
-      left: 0;
-    }
-
-    .timeline-item {
-      .timeline-content {
-        float: right;
-        text-align: left;
-        width: 90%;
-
-        &::before,
-        &.right::before {
-          border-left: 0;
-          border-right: 7px solid $timeline-color;
-          left: 10%;
-          margin-left: -6px;
-        }
-      }
-
-      .timeline-icon {
-        left: 0;
       }
     }
   }
