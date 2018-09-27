@@ -1,0 +1,228 @@
+.container  {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 850px;
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.menu--header {
+  float: right;
+  margin-top: 70px;
+}
+.menu__item {
+  display: inline-block;
+  margin-right: 30px;
+}
+.menu__link {
+  font-family: league_gothic, Arial, sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 24px;
+  text-decoration: none;
+}
+.menu__link:hover {
+  border-bottom: 2px solid #eec3ff;
+}
+
+.slider {
+  /*position: absolute;
+  top: 275px;*/
+  background: rgba(0,0,0,0.3);
+  height: 400px;
+
+}
+.slider__iphone {
+  float: right;
+  position: relative;
+  top: -15px;
+  right: 30px;
+}
+.caption {
+  font-family: league_gothic, Arial, sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 30px;
+}
+.caption--header {
+  font-size: 48px;
+  padding-top: 60px;
+  padding-bottom: 160px;
+  width: 200px;
+}
+.header--colored {
+  text-shadow: none;
+  color: #745083;
+}
+.caption--slider {
+  padding-top: 75px;
+  font-size: 60px;
+}
+.caption--slider-lev2 {
+  font-size: 36px;
+  color: #eec3ff;
+
+}
+.text {
+  font-family: open_sans, Arial, sans-serif;
+  font-size: 16px;
+  color: white;
+  line-height: 1.5em;
+  padding: 10px 0;
+}
+.text--slider {
+  color: lightgray;
+  width: 510px;
+}
+.about {
+  padding: 70px 0;
+  border: 1px solid black;
+  background: linear-gradient(#745083, #322539);
+}
+.about__topic {
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  padding-left: 8%;
+
+}
+.about__label {
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  background-image: url(../img/icons_sprite.png);
+}
+.about__label--2 {
+  background-position: -31px 0;
+}
+.about__label--3 {
+  background-position: -62px 0;
+}
+
+.caption--link {
+  float: right;
+  font-size: 18px;
+  text-decoration: none;
+}
+.caption--link:hover {
+  text-shadow: 0 0 10px white;
+}
+
+.blog {
+  background-color: #f9f9f9;
+}
+.blog__topic,
+.blog__updates {
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    vertical-align: top;
+}
+.blog__topic {
+  width: 350px;
+  padding: 25px 25px 100px 50px;
+  background-image: url(../img/icon_topic.png), url(../img/bg_blog.png);
+  background-position: 0 15px, 20px 0;
+  background-repeat: no-repeat;
+}
+.text--blog {
+  color: black;
+}
+.caption--blog {
+  color: black;
+  text-shadow: none;
+}
+.blog__colored {
+  color: #eec3ff;
+  text-shadow: none;
+}
+.blog__updates {
+  padding: 25px 25px 25px 50px;
+}
+.blog__news {
+  padding: 15px 0 15px 65px;
+  background-position: 0 10px;
+  background-repeat: no-repeat;
+}
+.blog__news--icon1 {
+  background-image: url(../img/icon_news1.png);
+}
+.blog__news--icon2 {
+  background-image: url(../img/icon_news2.png);
+}
+.blog__news--icon3 {
+  background-image:  url(../img/icon_news3.png);
+}
+.text--news {
+  font-weight: 900;
+  padding: 0;
+}
+.text--posted {
+  padding: 0;
+}
+.blog--link {
+  color: black;
+  text-shadow: none;
+}
+.logos {
+
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+
+}
+.logos__wrap {
+    margin: 25px 0;
+    flex: 0 0 auto;
+    text-align: center;
+}
+.container--logos {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.comments {
+  padding: 20px 0;
+  background-color: #ececec;
+}
+.comments__item {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 50px 0;
+}
+.comments__item:nth-child(n+2) {
+  margin-left: 4%;
+}
+.caption--comments {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+.colored--comments {
+  text-shadow: none;
+  color: grey;
+}
+.comments__copy {
+  color: lightgrey;
+  font-style: italic;
+}
+.footer {
+  background: url(../img/footer_bg.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.menu--footer {
+  padding: 45px 0;
+}
+.text--designed {
+  position: absolute;
+  top: 35px;
+  right: 0px;
+}

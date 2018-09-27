@@ -1,0 +1,296 @@
+div.container {
+    width: 908px;
+    margin: 20px auto 0 auto;
+    line-height: 1.4em;
+    font-family: Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+/*-------------------------header---------------------*/
+
+div.phones,
+div.login,
+div.sitenav {
+    display: inline-block;
+    margin: 5px;
+}
+header div.phones {
+    padding-left: 26px;
+    background: url(../img/icon_phone.png) no-repeat;
+    font-size: 18px;
+    color: darkslategrey;
+}
+div.login {
+    padding: 3px 8px 3px 20px;
+    border-radius: 5px;
+    background: url(../img/icon_login.png) 4px 4px no-repeat, linear-gradient(#1e6383, #0c3357);
+    box-shadow: 2px 2px 3px gray;
+    font-size: 11px;
+}
+div.login input {
+    font-size: 11px;
+    width: 110px;
+    margin-right: 5px;
+    padding-left: 3px;
+}
+div.login span.enter a {
+    color: white;
+    margin: 3px;
+}
+div.login span.forgotten a {
+    margin-left: 15px;
+    color: #a4a4a4;
+    text-decoration: underline;
+}
+div.login span.enter:nth-of-type(1){
+    line-height: 0.8rem;
+    padding-right: 3px;
+    border-right: 1px solid white;
+}
+div.sitenav {
+    border: 1px solid grey;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px grey;
+    padding: 0 5px;
+
+}
+div.sitenav a {
+    padding: 3px;
+}
+header nav {
+    margin: 4px auto;
+    border: 1px solid #282b32;
+    background: linear-gradient(#505860, black);
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px;
+}
+header nav ul {
+    display: inline-block;
+    margin: 3px 60px 3px 125px;
+}
+header nav li {
+    display: inline-block;
+    /*width: 120px;*/
+}
+header nav li>a {
+    display: block;
+    font-size: 14px;
+    color: grey;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2px 13px;
+}
+header nav li>a:hover {
+    background: linear-gradient(#2a9bc6, #0c3357);
+    border-radius: 10px;
+    color: white;
+}
+header nav p {
+    display: inline-block;
+    font-size: 11px;
+    color: grey;
+}
+header nav p#count,
+header nav p#sum {
+    color: #2a9bc6;
+    margin-right: 10px;
+}
+
+/*-------------------- search ------------------------*/
+
+section.search>div{
+    margin: 5px;
+    float: left;
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px grey;
+}
+section.search:after {
+    content: '';
+    display: block;
+    clear: left;
+}
+section.search p.caption {
+    font-size: 12px;
+    color: #0c3357;
+    font-weight: bold;
+}
+section.search p.caption:first-child {
+    text-align: center;
+}
+section.search p.subcaption {
+    font-size: 10px;
+    color: #0c3357;
+    font-weight: bold;
+}
+section.search p.subcaption:first-child {
+    float: left;
+}
+section.search p.subcaption:last-child {
+    float: right;
+}
+section.search label {
+    font-size: 10px;
+    color: grey;
+}
+section.search span.keyword {
+    color: #000;
+}
+section.search div.subform {
+    display: inline-block;
+}
+section.search label {
+    display: block;
+    width: 150px;
+}
+
+
+    /*-------------------- main --------------------------*/
+
+aside.catalogue {
+    float: left;
+    color: #114165;
+}
+aside.brands {
+    float: right;
+    color: #114165;
+}
+aside header {
+    width: 150px;
+    padding-left: 26px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px;
+    background: url(../img/icon_level1.png) no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+}
+aside ul.level1>li {
+    width: 122px;
+    padding-left: 26px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: url(../img/icon_level2.png) no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+aside ul.level2>li {
+    list-style: circle;
+    margin-left: 30px;
+    font-size: 12px;
+    list-style-position: inside;
+    line-height: 2em;
+}
+aside ul.level2>li:hover {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
+aside ul label {
+    display: block;
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 2em;
+}
+aside input[type="submit"] {
+    margin: 10px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px #c5c5c5;
+    background: linear-gradient(#1f6787, #114165);
+    font-size: 12px;
+    color: white;
+}
+
+
+section.content {
+    width: 506px;
+    padding: 15px;
+    background-color: #c8d0d4;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+
+}
+section.content>div {
+    display: inline-block;
+
+    margin: 5px 13px 15px 13px;
+    line-height: 1.2em;
+
+}
+section.content div.image {
+    width: 120px;
+    height: 120px;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+section.content p.caption {
+    color: #206988;
+    font-size: 16px;
+    font-weight: bold;
+}
+section.content p.description {
+    color: black;
+    font-size: 14px;
+}
+section.content p.price {
+    color: #114165;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+aside.logos {
+    clear: both;
+    text-align: center;
+    margin: 30px ;
+}
+aside.logos>span {
+    padding: 5px;
+
+}
+
+/* --------------------- footer ---------------------- */
+
+footer {
+    width: 908px;
+    height: 100px;
+    background: #213a4d;
+}
+footer ul {
+    padding: 10px;
+    text-align: center;
+
+}
+footer li {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 8px;
+    line-height: 1em;
+}
+footer li:nth-child(n+2) {
+    border-left: 1px solid white;
+}
+footer li>a {
+    color: white;
+    font-size: 12px;
+
+}
+footer li>a:hover {
+    color: #2a9bc6;
+}
+footer p.authors {
+    text-align: center;
+    font-size: 10px;
+    color: darkorange;
+}
+
