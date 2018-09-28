@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  <title>Memory game</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">Memory game</h1>
+    <h3 class="reminder">(don't forget to feed the cat!)</h3>
+    <div class="board-wrapper">
+
+      <!-- div that covers board at the beginning and display invite message -->
+      <div class="invite-wrapper">
+        <p class="invite-message">
+          Find matching cards and feed your cat as soon as possible!
+        </p>
+        <p class="invite-message">
+          Press New game to begin
+        </p>
+      </div>
+
+      <div class="board"></div>
+    </div>
+    <div class="info">
+      <div class="reset">
+        <button id="reset">New game</button>
+      </div>
+      <p class="rating">
+        Rating:
+        <i class="rate1 fas fa-star"></i>
+        <i class="rate2 fas fa-star"></i>
+        <i class="rate3 fas fa-star"></i>
+      </p>
+      <p class="moves">
+        Moves:
+        <span id="moves">0</span>
+      </p>
+      <p class="timer">
+        Time:
+        <span id="timer-minutes">00</span>:<span id="timer-seconds">00</span>
+      </p>
+      <div class="cat">
+      </div>
+    </div>
+  </div>
+
+  <!-- modal window, that shows after ending of the game -->
+  <div class="modal-wrapper hidden">
+    <div class="modal-window">
+      <p class="modal-info">
+        You did it! Your results:
+      </p>
+      <p class="modal-info">
+        Rating:
+        <i class="rate1 fas fa-star"></i>
+        <i class="rate2 fas fa-star"></i>
+        <i class="rate3 fas fa-star"></i>
+      </p>
+      <p class="modal-info">
+        Moves: <span id="modal-moves"></span>
+      </p>
+      <p class="modal-info">
+        Time: <span id="modal-time"></span>
+      </p>
+      <div id="modal-cat"></div>
+      <p class="modal-info" id="modal-message"></p>
+      <button id="modal-button">OK</button>
+    </div>
+  </div>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>

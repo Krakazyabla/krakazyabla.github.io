@@ -1,0 +1,65 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background: white;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+.options {
+    float: left;
+}
+
+.panel {
+    width: 210px;
+    margin: 20px;
+    padding: 10px 20px;
+    border: 5px double black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.panel * {
+  margin: 5px;
+}
+
+.canvas {
+    margin: 20px;
+}

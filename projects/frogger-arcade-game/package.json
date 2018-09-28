@@ -1,0 +1,26 @@
+{
+  "name": "frogger",
+  "version": "1.0.0",
+  "description": "Classic arcade game clone",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krakazyabla/project-classic-arcade-game.git"
+  },
+  "keywords": [
+    "frogger",
+    "arcade"
+  ],
+  "author": "Elena Dontsova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Krakazyabla/project-classic-arcade-game/issues"
+  },
+  "homepage": "https://github.com/Krakazyabla/project-classic-arcade-game#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}

@@ -1,0 +1,213 @@
+
+/************   Resetting default styles   **************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.2em;
+}
+
+/************   Common styles   *************************/
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.separator {
+  width: 100%;
+  height: 10px;
+}
+
+.code_like {
+  color: gray;
+}
+
+.code_like span {
+  color: cornflowerblue;
+}
+
+.code_like::before {
+  content: "<";
+}
+
+.code_like::after {
+  content: "/>";
+}
+
+
+/************   Header    ***********************/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: url(../img/bg.jpg) right/cover;
+}
+
+header .logo {
+  margin: 10px 30px;
+}
+
+.header-caption {
+  align-self: flex-end;
+  margin-right: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3em;
+}
+
+.header-caption h1 {
+  color: #fffeea;
+}
+
+.header-caption h2 {
+  background-color: black;
+  padding: 0 10px;
+
+}
+
+
+/************   Main content  ***********************/
+
+.skills, .projects, .skills .section-content {
+  display: flex;
+}
+
+.section-caption {
+  width: 130px;
+  padding: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.section-content {
+  width: calc(100% - 130px);
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+
+/************   Skills section  *********************/
+
+.skills-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 5px;
+  width: 33%;
+  background-color: #fffeea;
+  border-radius: 5px;
+}
+
+.skills-item p {
+  line-height: 2em;
+  margin-bottom: 30px;
+}
+
+.skills-item span {
+  font-family: 'Oswald', sans-serif;
+  color: cornflowerblue;
+  font-size: 1.5em;
+  margin-left: -5px;
+}
+
+.skills-image {
+  width: 100%;
+  border: 1px solid gray;
+  box-shadow: 0 0 3px gray;
+}
+
+
+/************   Project section  *********************/
+
+.projects-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 5px;
+  background-color: #fffeea;
+  border-radius: 5px;
+}
+
+.projects-item p {
+  line-height: 2em;
+}
+
+.projects-description h3 {
+  font-family: 'Oswald', sans-serif;
+  color: cornflowerblue;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.projects-image {
+  max-width: 50%;
+  max-height: 350px;
+  margin-left: 20px;
+  border: 1px solid gray;
+  box-shadow: 0 0 3px gray;
+}
+
+
+/************   Footer  *************************/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: url(../img/bg.jpg) right/cover;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -20px;
+  padding-left: 110px;
+}
+
+.contact-caption {
+  width: 100%;
+}
+
+.contact-caption h3 {
+  display: inline;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  background-color: black;
+  padding: 0 10px;
+}
+
+.contact a {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #fffeea;
+  box-shadow: 0 0 5px #fffeea;
+  color: cornflowerblue;
+}
+
+.contact i {
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.contact a:visited {
+  color: cornflowerblue;
+}
+
+.contact a:hover {
+  color: black;
+  transition: color 0.5s;
+}
+
+footer p {
+  max-width: 50%;
+}
