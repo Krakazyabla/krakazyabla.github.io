@@ -1,0 +1,33 @@
+body {
+  background-color: #ccc;
+}
+
+#logo-container {
+  background-color: white;
+  width: 60vw;
+  height: 70vh;
+  margin: 100px auto;
+  position: relative;
+}
+
+#logo-animation-frame {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#logo-animation-eye {
+  position: absolute;
+  left: -16%;
+  width: 16%;
+}
+
+#logo-animation-text {
+  width: 80%;
+  position: relative;
+  top: 25%;
+  left: 10%;
+}
